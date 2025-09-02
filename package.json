@@ -1,0 +1,19 @@
+{
+  "name": "packaging-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "AI WhatsApp bot for packaging business using Twilio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "twilio": "^4.19.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
